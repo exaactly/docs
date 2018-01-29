@@ -60,7 +60,7 @@ e.g. `http://example.com/connected?code=ABCDEFF1235243`
 {
    "access_token": "<user access token>",
    "refresh_token": "<refresh token>",
-   "expires_in": <number_of_seconds_until_the_token_expires>,
+   "expires_in": "<number of seconds until the token expires>",
 }
 ```
     
@@ -90,7 +90,7 @@ A Refresh Token is a special kind of token that can be used to obtain a renewed 
 {
    "access_token": "<user access token>",
    "refresh_token": "<refresh token>",
-   "expires_in": <number_of_seconds_until_the_token_expires>,
+   "expires_in": "<number of seconds until the token expires>",
 }
 ```
 
